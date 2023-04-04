@@ -7,6 +7,7 @@
 body{
     background-color: white;
     font-size: 1rem;
+    font-family: 'Cabin', sans-serif;
 }
 .flex-center{
     display: flex;
@@ -30,17 +31,73 @@ body{
     align-items: center;
 }
 header{
-    background-color: #add8e6;
     height: 80px;
     max-width: 100%;
+    background-color: #255ee9;
 }
 .inner-header{
-    background-color: #daa520;
     width: 70%;
     height: 50px;
     padding: 0 10px;
-    max-width: 1200px;
     margin: auto;
+}
+h1{
+    color: white;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    margin-bottom: 30px;
+}
+.first-section{
+    text-align: center;
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 140px;
+}
+ul{
+    list-style-type: none;
+}
+ul *{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+.main-text{
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.7rem;
+}
+#accedi-button{
+    text-decoration: none;
+    padding: 12px 18px;
+    color: black;
+    background-color: white;
+    border-radius: 65px;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.main-buttons{
+    text-decoration: none;
+    padding: 15px 23px;
+    border-radius: 65px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.dark-button{
+    color: white;
+    background-color: #23272a;
+}
+.white-button{
+    color: #23272a;
+    background-color: white;
+}
+a[href="#"]:hover{
+    text-decoration: underline;
 }
 .nav-links{
     list-style-type: none;
@@ -63,11 +120,6 @@ header{
 }
 .white-bg-section{
     height: 400px;
-}
-.fluo-pink-box{
-    width: 50%;
-    height: 290px;
-    background-color: #ee82ee;
 }
 .blue-box{
     background-color: #1e90ff;
@@ -119,3 +171,4 @@ button{
     background-color:#ffc0cb;
     padding: 3px;
 }
+
