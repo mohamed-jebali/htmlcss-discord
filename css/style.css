@@ -190,10 +190,10 @@ footer{
 
 footer section.footer-top{
     height: 700px;
+    padding-top: 50px;
 }
 
 footer div.main-column{
-    background-color: #ef7f7f;
     width: 30%;
 }
 
@@ -202,7 +202,6 @@ footer div.footer-columns{
 }
 
 footer div.secondary-column{
-    background-color: #20b1a9;
     width: calc(100% / 4);
 }
 
@@ -232,11 +231,19 @@ footer section .button-wrapper{
     color: #8ea1e1;
 }
 #flag-italy{
-    vertical-align: top;
+    vertical-align: middle;
+    height: 15px;
+}
+.language-italy{
+    margin-bottom: 20px;
+}
+.footer-list{
+    list-style-type: none;
+    line-height: 2rem;
+}
+.social-icon{
     height: 20px;
 }
-#lingua{
-    font-size: 0.7rem;
-    vertical-align: top;
-    color: white;
+.font-weight-list{
+    font-weight: 600;
 }
