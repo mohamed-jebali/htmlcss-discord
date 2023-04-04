@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.small-button{
+    text-decoration: none;
+    padding: 12px 18px;
+    color: black;
+    background-color: white;
+    border-radius: 65px;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
 .flex{
     display: flex;
     flex-direction: row;
@@ -16,12 +28,43 @@
 .height-100{
     height: 100%;
 }
-
+.main-buttons{
+    text-decoration: none;
+    padding: 12px 23px;
+    border-radius: 65px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.dark-button{
+    color: white;
+    background-color: #23272a;
+}
+.white-button{
+    color: #23272a;
+    background-color: white;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+.hero{
+    text-align: center;
+    color: white;
+    line-height: 1.6rem;
+    margin-top: 50px;
+    font-size: 1rem;
+}
+h1{
+    font-size: 2.8rem;
+    margin-bottom: 50px;
+}
 .dashed-border{
     border: 2px dashed black;
 }
@@ -30,10 +73,15 @@
     border: 2px dashed white;
 }
 
-.background-gold{
-    background-color: #d9a420;
+ul *{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    margin-right: 20px;
 }
-
+a[href="#"]:hover{
+    text-decoration: underline;
+}
 .background-gray{
     background-color: #d2d2d2;
 }
@@ -48,8 +96,7 @@ body{
 }
 
 header{
-    background-color: #acd7e5;
-    /* padding-bottom: 5px; */
+    background-color: #255ee9;
 }
 
 header section.upper{
@@ -87,12 +134,10 @@ section.upper div.login{
 
 header section.jumbotron{
     background-color: #00008a;
-    /* height: 550px; */
     padding: 4rem 0;
 }
 
 section.jumbotron .hero{
-    background-color: #ed81ed;
     height: 400px;
     width: 75%;
 }
