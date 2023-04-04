@@ -6,11 +6,13 @@
 body{
     font-family: 'Cabin', sans-serif;
 }
+.white-buton{
+    color: black;
+    background-color: white;
+}
 .small-button{
     text-decoration: none;
     padding: 12px 18px;
-    color: black;
-    background-color: white;
     border-radius: 65px;
     border: none;
     font-size: 0.8rem;
@@ -19,6 +21,9 @@ body{
 .flex{
     display: flex;
     flex-direction: row;
+}
+.flex-center-tems{
+    display: flex;
 }
 
 .margin-auto{
@@ -37,6 +42,10 @@ body{
     font-weight: 400;
     margin-right: 15px;
     margin-top: 20px;
+}
+.main-text-sections{
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 .dark-button{
     color: white;
@@ -64,6 +73,11 @@ body{
 h1{
     font-size: 2.8rem;
     margin-bottom: 50px;
+}
+h2{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    line-height: 2.5rem;
 }
 .dashed-border{
     border: 2px dashed black;
@@ -193,7 +207,6 @@ footer div.secondary-column{
 }
 
 footer section.footer-bottom{
-    background-color: #7ffed3;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
@@ -207,4 +220,23 @@ hr{
 footer section .logo-wrapper,
 footer section .button-wrapper{
     padding: .5rem;
+}
+.footer-bottom{
+    border-top: 1px solid #8ea1e1;
+}
+.blue-button{
+    background-color: #8ea1e1;
+    color: white;
+}
+.blue-color{
+    color: #8ea1e1;
+}
+#flag-italy{
+    vertical-align: top;
+    height: 20px;
+}
+#lingua{
+    font-size: 0.7rem;
+    vertical-align: top;
+    color: white;
 }
