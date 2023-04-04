@@ -1,116 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>htmlcss-struttura-discord</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet"> 
-</head>
-<body>
-    
-    <header class="flex-center">
-        <div class="inner-header flex-text">
-            <img id="discord-logo" src="./img/logo.svg" alt="">
-            <nav>
-                <ul class="link-list flex-text">
-                    <li>
-                        <a href="#">Scarica</a>
-                    </li>
-                    <li>
-                        <a href="#">Perchè Discord</a>
-                    </li>
-                    <li>
-                        <a href="#">Nitro</a>
-                    </li>
-                    <li>
-                        <a href="#">Sicurezza</a>
-                    </li>
-                    <li>
-                        <a href="#">Assistenza</a>
-                    </li>
-                </ul>
-            </nav>
-            <button id="accedi-button">
-                Accedi
-            </button>
-        </div>
-    </header>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Discord Struttura</title>
 
-    <section class="first-section flex-center">
-        <div class="first-section-wrapper">
-            <h1>
-                Il tuo posto per parlare
-            </h1>
-            <p class="main-text">
-                Che tu faccia parte di un club scolastico, gruppo di gamer, una communita' artistica <br>
-                mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo <br>
-                assieme, Discord rende piu facile chiacchierare ogni giorno e ritrovarsi piu spesso.
-            </p>
-            <button class="main-buttons white-button">
-                &DownArrow; Scarica per Mac
-            </button>
-            <button class="main-buttons dark-button">
-                Apri discord nel tuo Browser
-            </button>
-        </div>
-    </section>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <section class="upper container flex">
+                <div class="logo dashed-border background-gold">
+                    logo
+                </div>
+                <nav>
+                    <ul class="flex dashed-border background-gold">
+                        <li>
+                            link
+                        </li>
+                        <li>
+                            link
+                        </li>
+                        <li>
+                            link
+                        </li>
+                        <li>
+                            link
+                        </li>
+                        <li>
+                            link
+                        </li>
+                    </ul>
+                </nav>
+                <div class="login dashed-border background-gold">
+                    login
+                </div>
+            </section>
+            <section class="jumbotron">
+                <div class="container flex">
+                    <div class="hero dashed-border margin-auto">
 
-    <section class="white-bg-section flex-center">
-        <article class="blue-box">
+                    </div>
+                </div>
+            </section>
+        </header>
 
-        </article>
-        <aside class="light-pink-box">
+        <main>
+            <section>
+                <div class="container flex">
+                    <div class="blue-column dashed-border"></div>
+                    <div class="pink-column dashed-border"></div>
+                </div>
+            </section>
 
-        </aside>
-    </section>
+            <section class="background-gray">
+                <div class="container flex">
+                    <div class="pink-column dashed-border"></div>
+                    <div class="blue-column dashed-border"></div>
+                </div>
+            </section>
 
-    <section class="grey-bg-section flex-center">
-        <aside class="light-pink-box">
+            <section>
+                <div class="container flex">
+                    <div class="blue-column dashed-border"></div>
+                    <div class="pink-column dashed-border"></div>
+                </div>
+            </section>
 
-        </aside>
-        <article class="blue-box">
+            <section class="background-gray">
+                <div class="container flex">
+                    <div class="big-column dashed-border"></div>
+                </div>
+            </section>
 
-        </article>
-    </section>
+        </main>
 
-    <section class="white-bg-section flex-center">
-        <article class="blue-box">
-
-        </article>
-        <aside class="light-pink-box">
-
-        </aside>
-    </section>
-
-    <section class="grey-bg-big-section flex-center">
-        <div class="green-box">
-
-        </div>
-    </section>
-
-    <section class="darkGreen-bg-section flex-start">
-        <div class="dark-pink-box"></div>
-        <div class="aqua-box"></div>
-        <div class="aqua-box"></div>
-        <div class="aqua-box"></div>
-        <div class="aqua-box"></div>
-    </section>
-    <hr>
-
-    <footer class="darkGreen-bg-small-section flex-end">
-        <div class="inner-footer flex-text">
-            <p class="logo-footer">
-                Logo
-            </p>
-            <button>
-                Buttone
-            </button>
-        </div>
-    </footer>
-    
-</body>
+        <footer>
+            <section class="container footer-top flex">
+                <div class="main-column dashed-border"></div>
+                <div class="footer-columns dashed-border flex">
+                    <div class="secondary-column dashed-border-white"></div>
+                    <div class="secondary-column dashed-border-white"></div>
+                    <div class="secondary-column dashed-border-white"></div>
+                    <div class="secondary-column dashed-border-white"></div>
+                </div>
+            </section>
+            <hr>
+            <section class="container footer-bottom flex">
+                <div class="logo-wrapper background-pastel-pink dashed-border">
+                    Logo
+                </div>
+                <div class="button-wrapper background-pastel-pink dashed-border">
+                    Bottone
+                </div>
+            </section>
+        </footer>
+    </body>
 </html>
